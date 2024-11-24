@@ -21,7 +21,7 @@ class Notif {
                     dir: "rtl",
                     image: this.image
                 })
-            } else {
+            } else if (perm === 'denied') {
                 alert('PLEASE TURN ON NOTIFICATIONS.');
             }
         })
